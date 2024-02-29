@@ -1,0 +1,1643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecommerce Información</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+
+
+
+<div class="navbar">
+  <h1>Tienda Ecommerce</h1>
+    <a href="#pedido">Pedidos</a>
+    <a href="#cliente">Cliente</a>
+    <a href="#factura">Factura</a>
+    <a href="#trimestres">Trimestres</a>
+</div >
+<div class="container mt-3 primero">
+<h2 id="pedido">Pedidos</h2>
+
+<!-- Estructura de la tabla donde puedes añadir los datos manualmente -->
+<table class="table table-striped pedidos">
+   
+    <tr>
+        <th>Número de Pedido</th>
+        <th>Cliente</th>
+        <th>Fecha de Compra</th>
+        <th>Fecha de Entrega</th>
+        <th>Total Factura</th>
+        <th>Productos</th>
+      </tr>
+      <tr>
+        <td>1001</td>
+        <td>Juan Pérez</td>
+        <td>2021-01-20</td>
+        <td>2021-01-25</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto" class="producto">Laptop (Ref: LT1002), Unidades: 1</div class="producto">
+          <div class="producto" class="producto">Mouse (Ref: MS1002), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2001</td>
+        <td>Ana Ruiz</td>
+        <td>2021-01-07</td>
+        <td>2021-01-12</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Teclado Mecánico (Ref: TKL2021), Unidades: 1</div class="producto">
+          <div class="producto">Mouse Gamer (Ref: MG2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2002</td>
+        <td>Luis Martínez</td>
+        <td>2021-01-10</td>
+        <td>2021-01-15</td>
+        <td>120.00</td>
+        <td>
+          <div class="producto">Auriculares Bluetooth (Ref: AB2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2003</td>
+        <td>Carmen López</td>
+        <td>2021-01-14</td>
+        <td>2021-01-19</td>
+        <td>210.00</td>
+        <td>
+          <div class="producto">Smartwatch Fitness (Ref: SWF2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2004</td>
+        <td>Jorge Navarro</td>
+        <td>2021-01-17</td>
+        <td>2021-01-22</td>
+        <td>320.00</td>
+        <td>
+          <div class="producto">Cámara Reflex (Ref: CR2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2005</td>
+        <td>Sofía Gómez</td>
+        <td>2021-01-20</td>
+        <td>2021-01-25</td>
+        <td>45.00</td>
+        <td>
+          <div class="producto">Libro de Cocina (Ref: LC2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2006</td>
+        <td>Carlos Jiménez</td>
+        <td>2021-01-24</td>
+        <td>2021-01-29</td>
+        <td>85.00</td>
+        <td>
+          <div class="producto">Ratón Inalámbrico (Ref: RI2021), Unidades: 1</div class="producto">
+          <div class="producto">Teclado Inalámbrico (Ref: TI2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2007</td>
+        <td>Marta Vidal</td>
+        <td>2021-01-27</td>
+        <td>2021-02-01</td>
+        <td>100.00</td>
+        <td>
+          <div class="producto">Altavoces Bluetooth (Ref: AB2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2008</td>
+        <td>Óscar Sánchez</td>
+        <td>2021-01-30</td>
+        <td>2021-02-04</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Monitor 24 pulgadas (Ref: M24P2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2009</td>
+        <td>Laura Gómez</td>
+        <td>2021-02-05</td>
+        <td>2021-02-10</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Consola de Videojuegos (Ref: CV2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>Miguel Ángel Torres</td>
+        <td>2021-04-07</td>
+        <td>2021-04-12</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Impresora 3D (Ref: IMP3D2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2011</td>
+        <td>Sara Jiménez</td>
+        <td>2021-04-12</td>
+        <td>2021-04-17</td>
+        <td>450.00</td>
+        <td>
+          <div class="producto">Laptop Gaming (Ref: LG2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2012</td>
+        <td>Carlos Ruiz</td>
+        <td>2021-04-18</td>
+        <td>2021-04-23</td>
+        <td>180.00</td>
+        <td>
+          <div class="producto">Tablet 10 pulgadas (Ref: TBLT102021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2013</td>
+        <td>Lucía Fernández</td>
+        <td>2021-04-22</td>
+        <td>2021-04-27</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Cámara DSLR (Ref: DSLR2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2014</td>
+        <td>David Martín</td>
+        <td>2021-04-28</td>
+        <td>2021-05-03</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Smartwatch Deportivo (Ref: SWD2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2015</td>
+        <td>Elena Soto</td>
+        <td>2021-05-04</td>
+        <td>2021-05-09</td>
+        <td>100.00</td>
+        <td>
+          <div class="producto">Altavoces portátiles Bluetooth (Ref: APB2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2016</td>
+        <td>Javier Alonso</td>
+        <td>2021-05-12</td>
+        <td>2021-05-17</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Teclado gaming mecánico (Ref: TGM2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2017</td>
+        <td>Sonia García</td>
+        <td>2021-05-20</td>
+        <td>2021-05-25</td>
+        <td>320.00</td>
+        <td>
+          <div class="producto">Monitor curvo 27 pulgadas (Ref: MC272021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Pedro Gómez</td>
+        <td>2021-05-24</td>
+        <td>2021-05-29</td>
+        <td>180.00</td>
+        <td>
+          <div class="producto">Memoria USB 64GB (Ref: MUSB642021), Unidades: 2</div class="producto">
+          <div class="producto">Disco Duro Externo 1TB (Ref: DDE1TB2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>2019</td>
+        <td>María López</td>
+        <td>2021-06-01</td>
+        <td>2021-06-06</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Tablet 8 pulgadas (Ref: T82021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3001</td>
+        <td>Roberto Silva</td>
+        <td>2021-07-03</td>
+        <td>2021-07-08</td>
+        <td>500.00</td>
+        <td>
+          <div class="producto">Portátil Profesional (Ref: PP2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3002</td>
+        <td>Ana María López</td>
+        <td>2021-07-12</td>
+        <td>2021-07-17</td>
+        <td>75.00</td>
+        <td>
+          <div class="producto">Ratón Gaming (Ref: RG2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3003</td>
+        <td>Carlos Jiménez</td>
+        <td>2021-07-20</td>
+        <td>2021-07-25</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Teclado Mecánico RGB (Ref: TMRGB2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3004</td>
+        <td>Diana Guerrero</td>
+        <td>2021-07-28</td>
+        <td>2021-08-02</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Auriculares Inalámbricos (Ref: AI2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3005</td>
+        <td>Eduardo Fernández</td>
+        <td>2021-08-05</td>
+        <td>2021-08-10</td>
+        <td>350.00</td>
+        <td>
+          <div class="producto">Smartwatch (Ref: SW2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3006</td>
+        <td>Gloria Martín</td>
+        <td>2021-08-13</td>
+        <td>2021-08-18</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Cámara de Acción (Ref: CA2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3007</td>
+        <td>Sergio Ramírez</td>
+        <td>2021-08-21</td>
+        <td>2021-08-26</td>
+        <td>400.00</td>
+        <td>
+          <div class="producto">Tablet Gráfica (Ref: TG2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3008</td>
+        <td>Isabel Ortiz</td>
+        <td>2021-08-29</td>
+        <td>2021-09-03</td>
+        <td>180.00</td>
+        <td>
+          <div class="producto">Micrófono USB (Ref: MU2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3009</td>
+        <td>Marta Sánchez</td>
+        <td>2021-09-06</td>
+        <td>2021-09-11</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Monitor LED 27 pulgadas (Ref: ML272021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>3010</td>
+        <td>Luisa Moreno</td>
+        <td>2021-09-14</td>
+        <td>2021-09-19</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Libro Electrónico (Ref: LE2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4001</td>
+        <td>Julia Casas</td>
+        <td>2021-10-03</td>
+        <td>2021-10-08</td>
+        <td>600.00</td>
+        <td>
+          <div class="producto">Ordenador de Sobremesa (Ref: ODS2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4002</td>
+        <td>Miguel Ángel Núñez</td>
+        <td>2021-10-11</td>
+        <td>2021-10-16</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Ratón Ergonómico (Ref: RE2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4003</td>
+        <td>Carla Moreno</td>
+        <td>2021-10-19</td>
+        <td>2021-10-24</td>
+        <td>120.00</td>
+        <td>
+          <div class="producto">Teclado Inalámbrico Compacto (Ref: TIC2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4004</td>
+        <td>Francisco Gutiérrez</td>
+        <td>2021-10-27</td>
+        <td>2021-11-01</td>
+        <td>210.00</td>
+        <td>
+          <div class="producto">Auriculares con Cancelación de Ruido (Ref: ACR2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4005</td>
+        <td>Lorena Ruiz</td>
+        <td>2021-11-04</td>
+        <td>2021-11-09</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Consola Portátil (Ref: CP2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4006</td>
+        <td>Jorge Alonso</td>
+        <td>2021-11-12</td>
+        <td>2021-11-17</td>
+        <td>130.00</td>
+        <td>
+          <div class="producto">Libro Electrónico Kindle (Ref: LEK2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4007</td>
+        <td>Sofía Martínez</td>
+        <td>2021-11-20</td>
+        <td>2021-11-25</td>
+        <td>85.00</td>
+        <td>
+          <div class="producto">Mochila para Portátil (Ref: MP2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4008</td>
+        <td>David Jiménez</td>
+        <td>2021-11-28</td>
+        <td>2021-12-03</td>
+        <td>160.00</td>
+        <td>
+          <div class="producto">Impresora Láser Color (Ref: ILC2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4009</td>
+        <td>Patricia Navarro</td>
+        <td>2021-12-06</td>
+        <td>2021-12-11</td>
+        <td>75.00</td>
+        <td>
+          <div class="producto">Cargador Solar Portátil (Ref: CSP2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>4010</td>
+        <td>Luis Enrique Ortiz</td>
+        <td>2021-12-14</td>
+        <td>2021-12-19</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Tablet Profesional 12 pulgadas (Ref: TP12P2021), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5001</td>
+        <td>Mario Benedetti</td>
+        <td>2022-01-04</td>
+        <td>2022-01-09</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Ebook Reader (Ref: EBKR2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5002</td>
+        <td>Laura Esquivel</td>
+        <td>2022-01-12</td>
+        <td>2022-01-17</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Filtro de Agua (Ref: FDA2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5003</td>
+        <td>Carlos Ruiz Zafón</td>
+        <td>2022-01-20</td>
+        <td>2022-01-25</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Lámpara de Lectura LED (Ref: LLLD2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5004</td>
+        <td>Isabel Allende</td>
+        <td>2022-01-28</td>
+        <td>2022-02-02</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Set de Escritura (Ref: SED2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5005</td>
+        <td>Gabriel García Márquez</td>
+        <td>2022-02-05</td>
+        <td>2022-02-10</td>
+        <td>500.00</td>
+        <td>
+          <div class="producto">Máquina de Escribir Vintage (Ref: MEV2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5006</td>
+        <td>Jorge Luis Borges</td>
+        <td>2022-02-13</td>
+        <td>2022-02-18</td>
+        <td>80.00</td>
+        <td>
+          <div class="producto">Libreta Moleskine (Ref: LBM2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5007</td>
+        <td>Julio Cortázar</td>
+        <td>2022-02-21</td>
+        <td>2022-02-26</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Juego de Ajedrez (Ref: JDA2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5008</td>
+        <td>Clarice Lispector</td>
+        <td>2022-03-01</td>
+        <td>2022-03-06</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Perfume Exclusivo (Ref: PE2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5009</td>
+        <td>Virginia Woolf</td>
+        <td>2022-03-09</td>
+        <td>2022-03-14</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Colección de Libros Clásicos (Ref: CLC2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>5010</td>
+        <td>Pablo Neruda</td>
+        <td>2022-03-17</td>
+        <td>2022-03-22</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Set de Vinos Premium (Ref: SVP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6001</td>
+        <td>Carmen Martínez</td>
+        <td>2022-04-03</td>
+        <td>2022-04-08</td>
+        <td>120.00</td>
+        <td>
+          <div class="producto">Lámpara de escritorio LED (Ref: LE2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6002</td>
+        <td>Antonio López</td>
+        <td>2022-04-11</td>
+        <td>2022-04-16</td>
+        <td>85.00</td>
+        <td>
+          <div class="producto">Agenda 2022 (Ref: AG2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6003</td>
+        <td>Laura Vidal</td>
+        <td>2022-04-19</td>
+        <td>2022-04-24</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Set de maquillaje profesional (Ref: SMP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6004</td>
+        <td>Javier Sánchez</td>
+        <td>2022-04-27</td>
+        <td>2022-05-02</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Cascos inalámbricos de alta fidelidad (Ref: CIHF2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6005</td>
+        <td>Beatriz Conde</td>
+        <td>2022-05-05</td>
+        <td>2022-05-10</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Pluma estilográfica (Ref: PE2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6006</td>
+        <td>Daniel Prieto</td>
+        <td>2022-05-13</td>
+        <td>2022-05-18</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Mochila impermeable para portátil (Ref: MIP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6007</td>
+        <td>Mónica García</td>
+        <td>2022-05-21</td>
+        <td>2022-05-26</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Libro de cocina saludable (Ref: LCS2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6008</td>
+        <td>Óscar Muñoz</td>
+        <td>2022-05-29</td>
+        <td>2022-06-03</td>
+        <td>100.00</td>
+        <td>
+          <div class="producto">Juego de mesa estratégico (Ref: JME2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6009</td>
+        <td>Clara Belmonte</td>
+        <td>2022-06-06</td>
+        <td>2022-06-11</td>
+        <td>60.00</td>
+        <td>
+          <div class="producto">Kit de jardinería (Ref: KJ2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>6010</td>
+        <td>Fernando Torres</td>
+        <td>2022-06-14</td>
+        <td>2022-06-19</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Raqueta de tenis profesional (Ref: RTP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7001</td>
+        <td>Elena Ruiz</td>
+        <td>2022-07-03</td>
+        <td>2022-07-08</td>
+        <td>320.00</td>
+        <td>
+          <div class="producto">Cámara instantánea (Ref: CI2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7002</td>
+        <td>Carlos Vega</td>
+        <td>2022-07-11</td>
+        <td>2022-07-16</td>
+        <td>85.00</td>
+        <td>
+          <div class="producto">Reloj de pared temático (Ref: RPT2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7003</td>
+        <td>Marta López</td>
+        <td>2022-07-19</td>
+        <td>2022-07-24</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Set de aromaterapia (Ref: SAR2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7004</td>
+        <td>Jorge Martín</td>
+        <td>2022-07-27</td>
+        <td>2022-08-01</td>
+        <td>100.00</td>
+        <td>
+          <div class="producto">Libro de meditación (Ref: LDM2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7005</td>
+        <td>Sofía Hernández</td>
+        <td>2022-08-04</td>
+        <td>2022-08-09</td>
+        <td>220.00</td>
+        <td>
+          <div class="producto">Bicicleta de montaña (Ref: BDM2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7006</td>
+        <td>Luis Álvarez</td>
+        <td>2022-08-12</td>
+        <td>2022-08-17</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Mochila de hidratación (Ref: MDH2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7007</td>
+        <td>Ana Torres</td>
+        <td>2022-08-20</td>
+        <td>2022-08-25</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Tablet para niños (Ref: TPN2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7008</td>
+        <td>David Gómez</td>
+        <td>2022-08-28</td>
+        <td>2022-09-02</td>
+        <td>110.00</td>
+        <td>
+          <div class="producto">Juego educativo electrónico (Ref: JEE2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7009</td>
+        <td>Clara Sanz</td>
+        <td>2022-09-05</td>
+        <td>2022-09-10</td>
+        <td>140.00</td>
+        <td>
+          <div class="producto">Kit de pintura acrílica (Ref: KPA2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>7010</td>
+        <td>Óscar Muñoz</td>
+        <td>2022-09-13</td>
+        <td>2022-09-18</td>
+        <td>75.00</td>
+        <td>
+          <div class="producto">Guantes de jardinería (Ref: GJ2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8001</td>
+        <td>Ignacio López</td>
+        <td>2022-10-03</td>
+        <td>2022-10-08</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Altavoces Bluetooth (Ref: ABT2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8002</td>
+        <td>Sara Domínguez</td>
+        <td>2022-10-11</td>
+        <td>2022-10-16</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Libro de Fotografía (Ref: LDF2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8003</td>
+        <td>Carlos Ruiz</td>
+        <td>2022-10-19</td>
+        <td>2022-10-24</td>
+        <td>250.00</td>
+        <td>
+          <div class="producto">Smartwatch Avanzado (Ref: SWA2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8004</td>
+        <td>Mónica Fernández</td>
+        <td>2022-10-27</td>
+        <td>2022-11-01</td>
+        <td>300.00</td>
+        <td>
+          <div class="producto">Cámara de Seguridad WiFi (Ref: CSW2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8005</td>
+        <td>Luis García</td>
+        <td>2022-11-04</td>
+        <td>2022-11-09</td>
+        <td>90.00</td>
+        <td>
+          <div class="producto">Termo para café (Ref: TC2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8006</td>
+        <td>Andrea Jiménez</td>
+        <td>2022-11-12</td>
+        <td>2022-11-17</td>
+        <td>120.00</td>
+        <td>
+          <div class="producto">Juego de Tés (Ref: JDT2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8007</td>
+        <td>Javier Alonso</td>
+        <td>2022-11-20</td>
+        <td>2022-11-25</td>
+        <td>60.00</td>
+        <td>
+          <div class="producto">Cuaderno de Viaje (Ref: CDV2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8008</td>
+        <td>Patricia López</td>
+        <td>2022-11-28</td>
+        <td>2022-12-03</td>
+        <td>80.00</td>
+        <td>
+          <div class="producto">Set de Velas Aromáticas (Ref: SVA2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8009</td>
+        <td>Daniel Sanz</td>
+        <td>2022-12-06</td>
+        <td>2022-12-11</td>
+        <td>200.00</td>
+        <td>
+          <div class="producto">Kit de Fotografía para Principiantes (Ref: KFP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+      <tr>
+        <td>8010</td>
+        <td>Emma Rodríguez</td>
+        <td>2022-12-14</td>
+        <td>2022-12-19</td>
+        <td>150.00</td>
+        <td>
+          <div class="producto">Set de Pinceles de Maquillaje Profesional (Ref: SPMP2022), Unidades: 1</div class="producto">
+        </td>
+      </tr>
+    </table>
+  </div>
+
+<!-- CAMBIO DE TABLA -->
+
+<div class="container mt-3 segundo">
+    <h2 id="cliente"> Tabla de Clientes</h2>
+
+
+    <table class="table table-dark clientes">
+      <tr id="cabecera">
+        <th>Nombre</th>
+        <th>Teléfono</th>
+        <th>Dirección</th>
+        <th>Ciudad</th>
+        <th>Correo Electrónico</th>
+      </tr>
+      <tr>
+        <td>Juan Pérez</td>
+        <td>123456789</td>
+        <td>Calle Sol, 10</td>
+        <td>Madrid</td>
+        <td>juan.perez@example.com</td>
+      </tr>
+      <tr>
+        <td>Ana Ruiz</td>
+        <td>987654321</td>
+        <td>Avenida Libertad, 23</td>
+        <td>Sevilla</td>
+        <td>ana.ruiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Luis Martínez</td>
+        <td>123123123</td>
+        <td>Calle Falsa, 123</td>
+        <td>Barcelona</td>
+        <td>luis.mtz@example.com</td>
+      </tr>
+      <tr>
+        <td>Carmen López</td>
+        <td>456456456</td>
+        <td>Plaza Mayor, 9</td>
+        <td>Madrid</td>
+        <td>carmen.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Jorge Navarro</td>
+        <td>789789789</td>
+        <td>Paseo de Gracia, 56</td>
+        <td>Barcelona</td>
+        <td>jorge.nv@example.com</td>
+      </tr>
+      <tr>
+        <td>Sofía Gómez</td>
+        <td>987987987</td>
+        <td>Gran Vía, 42</td>
+        <td>Madrid</td>
+        <td>sofia.gomez@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Jiménez</td>
+        <td>321321321</td>
+        <td>Calle Nueva, 5</td>
+        <td>Valencia</td>
+        <td>carlos.jm@example.com</td>
+      </tr>
+      <tr>
+        <td>Marta Vidal</td>
+        <td>654654654</td>
+        <td>Avenida del Mar, 33</td>
+        <td>Málaga</td>
+        <td>marta.vd@example.com</td>
+      </tr>
+      <tr>
+        <td>Óscar Sánchez</td>
+        <td>852852852</td>
+        <td>Plaza del Sol, 44</td>
+        <td>Granada</td>
+        <td>oscar.sn@example.com</td>
+      </tr>
+      <tr>
+        <td>Laura Gómez</td>
+        <td>963963963</td>
+        <td>Calle de la Paz, 11</td>
+        <td>Zaragoza</td>
+        <td>laura.gmz@example.com</td>
+      </tr>
+      <tr>
+        <td>Miguel Ángel Torres</td>
+        <td>854754321</td>
+        <td>Calle Esperanza, 22</td>
+        <td>Sevilla</td>
+        <td>miguel.torres@example.com</td>
+      </tr>
+      <tr>
+        <td>Sara Jiménez</td>
+        <td>896745231</td>
+        <td>Plaza de la Constitución, 3</td>
+        <td>Málaga</td>
+        <td>sara.jimenez@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Ruiz</td>
+        <td>867543219</td>
+        <td>Avenida de los Reyes, 14</td>
+        <td>Valencia</td>
+        <td>carlos.ruiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Lucía Fernández</td>
+        <td>912345678</td>
+        <td>Calle de las Flores, 4</td>
+        <td>Granada</td>
+        <td>lucia.fernandez@example.com</td>
+      </tr>
+      <tr>
+        <td>David Martín</td>
+        <td>923456789</td>
+        <td>Avenida Andalucía, 33</td>
+        <td>Córdoba</td>
+        <td>david.martin@example.com</td>
+      </tr>
+      <tr>
+        <td>Elena Soto</td>
+        <td>934567890</td>
+        <td>Plaza Mayor, 15</td>
+        <td>Barcelona</td>
+        <td>elena.soto@example.com</td>
+      </tr>
+      <tr>
+        <td>Javier Alonso</td>
+        <td>945678901</td>
+        <td>Calle del Prado, 21</td>
+        <td>Madrid</td>
+        <td>javier.alonso@example.com</td>
+      </tr>
+      <tr>
+        <td>Sonia García</td>
+        <td>956789012</td>
+        <td>Paseo de la Castellana, 120</td>
+        <td>Madrid</td>
+        <td>sonia.garcia@example.com</td>
+      </tr>
+      <tr>
+        <td>Pedro Gómez</td>
+        <td>958765432</td>
+        <td>Calle de la Esperanza, 8</td>
+        <td>Sevilla</td>
+        <td>pedro.gomez@example.com</td>
+      </tr>
+      <tr>
+        <td>María López</td>
+        <td>968765123</td>
+        <td>Avenida de Granada, 45</td>
+        <td>Granada</td>
+        <td>maria.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Roberto Silva</td>
+        <td>900123456</td>
+        <td>Calle Luna, 3</td>
+        <td>Zaragoza</td>
+        <td>roberto.silva@example.com</td>
+      </tr>
+      <tr>
+        <td>Ana María López</td>
+        <td>901234567</td>
+        <td>Plaza Mayor, 27</td>
+        <td>Valencia</td>
+        <td>ana.maria@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Jiménez</td>
+        <td>902345678</td>
+        <td>Avenida de la Paz, 11</td>
+        <td>Sevilla</td>
+        <td>carlos.jimenez@example.com</td>
+      </tr>
+      <tr>
+        <td>Diana Guerrero</td>
+        <td>903456789</td>
+        <td>Calle del Sol, 15</td>
+        <td>Madrid</td>
+        <td>diana.guerrero@example.com</td>
+      </tr>
+      <tr>
+        <td>Eduardo Fernández</td>
+        <td>904567890</td>
+        <td>Paseo de Gracia, 22</td>
+        <td>Barcelona</td>
+        <td>eduardo.fernandez@example.com</td>
+      </tr>
+      <tr>
+        <td>Gloria Martín</td>
+        <td>905678901</td>
+        <td>Calle Nueva, 5</td>
+        <td>Bilbao</td>
+        <td>gloria.martin@example.com</td>
+      </tr>
+      <tr>
+        <td>Sergio Ramírez</td>
+        <td>906789012</td>
+        <td>Ronda Sur, 8</td>
+        <td>Málaga</td>
+        <td>sergio.ramirez@example.com</td>
+      </tr>
+      <tr>
+        <td>Isabel Ortiz</td>
+        <td>907890123</td>
+        <td>Plaza de la Libertad, 4</td>
+        <td>Granada</td>
+        <td>isabel.ortiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Marta Sánchez</td>
+        <td>908901234</td>
+        <td>Avenida Diagonal, 32</td>
+        <td>Barcelona</td>
+        <td>marta.sanchez@example.com</td>
+      </tr>
+      <tr>
+        <td>Luisa Moreno</td>
+        <td>909012345</td>
+        <td>Calle de las Maravillas, 9</td>
+        <td>Sevilla</td>
+        <td>luisa.moreno@example.com</td>
+      </tr>
+      <tr>
+        <td>Julia Casas</td>
+        <td>950123456</td>
+        <td>Calle del Otoño, 10</td>
+        <td>Murcia</td>
+        <td>julia.casas@example.com</td>
+      </tr>
+      <tr>
+        <td>Miguel Ángel Núñez</td>
+        <td>951234567</td>
+        <td>Plaza de la Revolución, 22</td>
+        <td>León</td>
+        <td>miguel.nunez@example.com</td>
+      </tr>
+      <tr>
+        <td>Carla Moreno</td>
+        <td>952345678</td>
+        <td>Avenida de los Poetas, 5</td>
+        <td>Salamanca</td>
+        <td>carla.moreno@example.com</td>
+      </tr>
+      <tr>
+        <td>Francisco Gutiérrez</td>
+        <td>953456789</td>
+        <td>Calle de la Industria, 9</td>
+        <td>Oviedo</td>
+        <td>francisco.gutierrez@example.com</td>
+      </tr>
+      <tr>
+        <td>Lorena Ruiz</td>
+        <td>954567890</td>
+        <td>Paseo del Río, 12</td>
+        <td>Cádiz</td>
+        <td>lorena.ruiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Jorge Alonso</td>
+        <td>955678901</td>
+        <td>Avenida del Parque, 3</td>
+        <td>Gijón</td>
+        <td>jorge.alonso@example.com</td>
+      </tr>
+      <tr>
+        <td>Sofía Martínez</td>
+        <td>956789012</td>
+        <td>Calle de la Esperanza, 4</td>
+        <td>Santander</td>
+        <td>sofia.martinez@example.com</td>
+      </tr>
+      <tr>
+        <td>David Jiménez</td>
+        <td>957890123</td>
+        <td>Ronda de la Universidad, 7</td>
+        <td>Albacete</td>
+        <td>david.jimenez@example.com</td>
+      </tr>
+      <tr>
+        <td>Patricia Navarro</td>
+        <td>958901234</td>
+        <td>Plaza de la Tecnología, 5</td>
+        <td>Valladolid</td>
+        <td>patricia.navarro@example.com</td>
+      </tr>
+      <tr>
+        <td>Luis Enrique Ortiz</td>
+        <td>959012345</td>
+        <td>Calle de los Poetas, 19</td>
+        <td>Palma de Mallorca</td>
+        <td>luis.enrique@example.com</td>
+      </tr>
+      <tr>
+        <td>Mario Benedetti</td>
+        <td>960123456</td>
+        <td>Calle de la Poesía, 22</td>
+        <td>Toledo</td>
+        <td>mario.benedetti@example.com</td>
+      </tr>
+      <tr>
+        <td>Laura Esquivel</td>
+        <td>961234567</td>
+        <td>Plaza del Agua, 3</td>
+        <td>Salamanca</td>
+        <td>laura.esquivel@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Ruiz Zafón</td>
+        <td>962345678</td>
+        <td>Calle de las Sombras, 45</td>
+        <td>Barcelona</td>
+        <td>carlos.zafon@example.com</td>
+      </tr>
+      <tr>
+        <td>Isabel Allende</td>
+        <td>963456789</td>
+        <td>Avenida de los Cuentos, 9</td>
+        <td>Valladolid</td>
+        <td>isabel.allende@example.com</td>
+      </tr>
+      <tr>
+        <td>Gabriel García Márquez</td>
+        <td>964567890</td>
+        <td>Calle Macondo, 100</td>
+        <td>Málaga</td>
+        <td>gabriel.marquez@example.com</td>
+      </tr>
+      <tr>
+        <td>Jorge Luis Borges</td>
+        <td>965678901</td>
+        <td>Plaza de las Metáforas, 7</td>
+        <td>Córdoba</td>
+        <td>jorge.borges@example.com</td>
+      </tr>
+      <tr>
+        <td>Julio Cortázar</td>
+        <td>966789012</td>
+        <td>Calle del Cronopio, 32</td>
+        <td>Sevilla</td>
+        <td>julio.cortazar@example.com</td>
+      </tr>
+      <tr>
+        <td>Clarice Lispector</td>
+        <td>967890123</td>
+        <td>Ronda de la Claridad, 14</td>
+        <td>Granada</td>
+        <td>clarice.lispector@example.com</td>
+      </tr>
+      <tr>
+        <td>Virginia Woolf</td>
+        <td>968901234</td>
+        <td>Calle de la Onda, 56</td>
+        <td>Alicante</td>
+        <td>virginia.woolf@example.com</td>
+      </tr>
+      <tr>
+        <td>Pablo Neruda</td>
+        <td>969012345</td>
+        <td>Calle del Poeta, 11</td>
+        <td>Pamplona</td>
+        <td>pablo.neruda@example.com</td>
+      </tr>
+      <tr>
+        <td>Carmen Martínez</td>
+        <td>970123456</td>
+        <td>Calle de la Luz, 5</td>
+        <td>Oviedo</td>
+        <td>carmen.martinez@example.com</td>
+      </tr>
+      <tr>
+        <td>Antonio López</td>
+        <td>971234567</td>
+        <td>Plaza Nueva, 22</td>
+        <td>Bilbao</td>
+        <td>antonio.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Laura Vidal</td>
+        <td>972345678</td>
+        <td>Calle del Mar, 33</td>
+        <td>Cádiz</td>
+        <td>laura.vidal@example.com</td>
+      </tr>
+      <tr>
+        <td>Javier Sánchez</td>
+        <td>973456789</td>
+        <td>Avenida de la Constitución, 19</td>
+        <td>Granada</td>
+        <td>javier.sanchez@example.com</td>
+      </tr>
+      <tr>
+        <td>Beatriz Conde</td>
+        <td>974567890</td>
+        <td>Paseo de los Tristes, 21</td>
+        <td>Sevilla</td>
+        <td>beatriz.conde@example.com</td>
+      </tr>
+      <tr>
+        <td>Daniel Prieto</td>
+        <td>975678901</td>
+        <td>Ronda del Parque, 8</td>
+        <td>Valencia</td>
+        <td>daniel.prieto@example.com</td>
+      </tr>
+      <tr>
+        <td>Mónica García</td>
+        <td>976789012</td>
+        <td>Calle de las Ciencias, 4</td>
+        <td>Madrid</td>
+        <td>monica.garcia@example.com</td>
+      </tr>
+      <tr>
+        <td>Óscar Muñoz</td>
+        <td>977890123</td>
+        <td>Plaza Mayor, 56</td>
+        <td>Salamanca</td>
+        <td>oscar.munoz@example.com</td>
+      </tr>
+      <tr>
+        <td>Clara Belmonte</td>
+        <td>978901234</td>
+        <td>Calle del Aire, 22</td>
+        <td>A Coruña</td>
+        <td>clara.belmonte@example.com</td>
+      </tr>
+      <tr>
+        <td>Fernando Torres</td>
+        <td>979012345</td>
+        <td>Calle del Deporte, 11</td>
+        <td>Barcelona</td>
+        <td>fernando.torres@example.com</td>
+      </tr>
+      <tr>
+        <td>Elena Ruiz</td>
+        <td>980123456</td>
+        <td>Calle de la Estrella, 9</td>
+        <td>Santander</td>
+        <td>elena.ruiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Vega</td>
+        <td>981234567</td>
+        <td>Plaza del Sol, 15</td>
+        <td>Murcia</td>
+        <td>carlos.vega@example.com</td>
+      </tr>
+      <tr>
+        <td>Marta López</td>
+        <td>982345678</td>
+        <td>Avenida de la Libertad, 22</td>
+        <td>Alicante</td>
+        <td>marta.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Jorge Martín</td>
+        <td>983456789</td>
+        <td>Calle del Mar, 33</td>
+        <td>Valencia</td>
+        <td>jorge.martin@example.com</td>
+      </tr>
+      <tr>
+        <td>Sofía Hernández</td>
+        <td>984567890</td>
+        <td>Paseo de los Olivos, 5</td>
+        <td>Granada</td>
+        <td>sofia.hernandez@example.com</td>
+      </tr>
+      <tr>
+        <td>Luis Álvarez</td>
+        <td>985678901</td>
+        <td>Ronda de la Victoria, 8</td>
+        <td>Sevilla</td>
+        <td>luis.alvarez@example.com</td>
+      </tr>
+      <tr>
+        <td>Ana Torres</td>
+        <td>986789012</td>
+        <td>Calle de las Ciencias, 12</td>
+        <td>Madrid</td>
+        <td>ana.torres@example.com</td>
+      </tr>
+      <tr>
+        <td>David Gómez</td>
+        <td>987890123</td>
+        <td>Plaza Mayor, 28</td>
+        <td>Zaragoza</td>
+        <td>david.gomez@example.com</td>
+      </tr>
+      <tr>
+        <td>Clara Sanz</td>
+        <td>988901234</td>
+        <td>Avenida del Progreso, 16</td>
+        <td>Bilbao</td>
+        <td>clara.sanz@example.com</td>
+      </tr>
+      <tr>
+        <td>Óscar Muñoz</td>
+        <td>989012345</td>
+        <td>Calle Nueva Esperanza, 22</td>
+        <td>Coruña</td>
+        <td>oscar.munoz@example.com</td>
+      </tr>
+      <tr>
+        <td>Ignacio López</td>
+        <td>990123456</td>
+        <td>Calle de la Luna, 47</td>
+        <td>Málaga</td>
+        <td>ignacio.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Sara Domínguez</td>
+        <td>991234567</td>
+        <td>Avenida de Andalucía, 21</td>
+        <td>Granada</td>
+        <td>sara.dominguez@example.com</td>
+      </tr>
+      <tr>
+        <td>Carlos Ruiz</td>
+        <td>992345678</td>
+        <td>Plaza Mayor, 32</td>
+        <td>Sevilla</td>
+        <td>carlos.ruiz@example.com</td>
+      </tr>
+      <tr>
+        <td>Mónica Fernández</td>
+        <td>993456789</td>
+        <td>Calle del Océano, 14</td>
+        <td>Bilbao</td>
+        <td>monica.fernandez@example.com</td>
+      </tr>
+      <tr>
+        <td>Luis García</td>
+        <td>994567890</td>
+        <td>Paseo de la Reforma, 5</td>
+        <td>Valencia</td>
+        <td>luis.garcia@example.com</td>
+      </tr>
+      <tr>
+        <td>Andrea Jiménez</td>
+        <td>995678901</td>
+        <td>Ronda del Valle, 22</td>
+        <td>Córdoba</td>
+        <td>andrea.jimenez@example.com</td>
+      </tr>
+      <tr>
+        <td>Javier Alonso</td>
+        <td>996789012</td>
+        <td>Calle de las Nubes, 10</td>
+        <td>Madrid</td>
+        <td>javier.alonso@example.com</td>
+      </tr>
+      <tr>
+        <td>Patricia López</td>
+        <td>997890123</td>
+        <td>Avenida de la Luz, 7</td>
+        <td>Zaragoza</td>
+        <td>patricia.lopez@example.com</td>
+      </tr>
+      <tr>
+        <td>Daniel Sanz</td>
+        <td>998901234</td>
+        <td>Calle del Tesoro, 15</td>
+        <td>Palma</td>
+        <td>daniel.sanz@example.com</td>
+      </tr>
+      <tr>
+        <td>Emma Rodríguez</td>
+        <td>999012345</td>
+        <td>Plaza de la Victoria, 11</td>
+        <td>A Coruña</td>
+        <td>emma.rodriguez@example.com</td>
+      </tr>
+    </table>
+  </div>
+    <!-- CAMBIO DE TABLA -->
+    <div class="container mt-3 tercero">
+    <h2 id="factura">Tabla de factura</h2>
+
+<table class="table factura">
+  <tr>
+    <th colspan="2">Información del Cliente</th>
+  </tr>
+  <tr class="table-primary">
+    <td>Nombre</td>
+    <td>Ana Ruiz</td>
+  </tr>
+  <tr class="table-primary">
+    <td>Teléfono</td>
+    <td>987654321</td>
+  </tr>
+  <tr class="table-info">
+    <td>Dirección</td>
+    <td>Avenida Libertad, 23</td>
+  </tr>
+  <tr class="table-info">
+    <td>Ciudad</td>
+    <td>Sevilla</td>
+  </tr>
+  <tr class="table-active">
+    <td>Correo Electrónico</td>
+    <td>ana.ruiz@example.com</td>
+  </tr>
+</table>
+<br/>
+<table class="table factura">
+  <tr>
+    <th>Producto</th>
+    <th>Referencia</th>
+    <th>Precio</th>
+    <th>Unidades</th>
+    <th>Subtotal</th>
+  </tr>
+  <tr class="table-success">
+    <td>Teclado Mecánico</td>
+    <td>TKL2021</td>
+    <td>60.00</td>
+    <td>1</td>
+    <td>60</td>
+  </tr>
+  <tr class="table-success">
+    <td>Mouse Gamer</td>
+    <td>MG2021</td>
+    <td>30.00</td>
+    <td>1</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td colspan="4" style="text-align: right;">Total Factura    <b> 90</b></td>
+    
+  </tr>
+</table>
+
+    </div>
+    <!-- CAMBIO DE TABLA -->
+    <div class="container mt-3 cuarto">
+    <h2 id="trimestres">Tabla de 1º trimestre de 2021 y 4º trimestre de 2022</h2>
+ 
+    <table class="table trimestre" >
+      <tr>
+        <th>Producto</th>
+        <th>Referencia</th>
+        <th>Precio</th>
+        <th>Unidades</th>
+      </tr>
+      <tr>
+        <td>Laptop</td>
+        <td>LT1002</td>
+        <td>1000.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Mouse</td>
+        <td>MS1002</td>
+        <td>50.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Teclado Mecánico</td>
+        <td>TKL2021</td>
+        <td>60.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Mouse Gamer</td>
+        <td>MG2021</td>
+        <td>30.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Auriculares Bluetooth</td>
+        <td>AB2021</td>
+        <td>120.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Smartwatch Fitness</td>
+        <td>SWF2021</td>
+        <td>210.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Cámara Reflex</td>
+        <td>CR2021</td>
+        <td>320.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Libro de Cocina</td>
+        <td>LC2021</td>
+        <td>45.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Ratón Inalámbrico</td>
+        <td>RI2021</td>
+        <td>25.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Teclado Inalámbrico</td>
+        <td>TI2021</td>
+        <td>60.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Altavoces Bluetooth</td>
+        <td>AB2021</td>
+        <td>100.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Monitor 24 pulgadas</td>
+        <td>M24P2021</td>
+        <td>150.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Consola de Videojuegos</td>
+        <td>CV2021</td>
+        <td>220.00</td>
+        <td>1</td>
+      </tr>
+    </table>
+    <h2>Productos Vendidos en el Último Trimestre de 2022</h2>
+    <table class="table trimestre" >
+      <tr class="fila-especial">
+        <th>Producto</th>
+        <th>Referencia</th>
+        <th>Precio</th>
+        <th>Unidades</th>
+      </tr>
+      <tr>
+        <td>Altavoces Bluetooth</td>
+        <td>ABT2022</td>
+        <td>200.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Libro de Fotografía</td>
+        <td>LDF2022</td>
+        <td>150.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Smartwatch Avanzado</td>
+        <td>SWA2022</td>
+        <td>250.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Cámara de Seguridad WiFi</td>
+        <td>CSW2022</td>
+        <td>300.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Termo para café</td>
+        <td>TC2022</td>
+        <td>90.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Juego de Tés</td>
+        <td>JDT2022</td>
+        <td>120.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Cuaderno de Viaje</td>
+        <td>CDV2022</td>
+        <td>60.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Set de Velas Aromáticas</td>
+        <td>SVA2022</td>
+        <td>80.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Kit de Fotografía para Principiantes</td>
+        <td>KFP2022</td>
+        <td>200.00</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>Set de Pinceles de Maquillaje Profesional</td>
+        <td>SPMP2022</td>
+        <td>150.00</td>
+        <td>1</td>
+      </tr>
+    </table>
+
+</div>
+
+
+</body>
+</html>

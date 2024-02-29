@@ -1,0 +1,141 @@
+.html{
+padding: 0%;
+
+}
+
+
+body{
+background-color: aqua;
+
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo de la navbar */
+    color: white; /* Color del texto */
+    padding: 8px 0; /* Espaciado interno */
+   z-index: 1000; 
+  }
+  
+/* .navbar a {
+    float: left;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+} */
+
+.navbar a {
+    color: white;
+    padding: 10px 20px; /* Espaciado interno para un mejor efecto */
+    text-decoration: none;
+    display: inline-block; /* Permite aplicar padding y bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .navbar a:hover {
+    background-color: #4CAF50; /* Fondo verde */
+    color: black; /* Cambio de color de texto */
+  }
+  
+  
+  
+
+/* Estilos básicos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.producto{
+    list-style-type: disc; /* Utiliza "disc" para puntos sólidos */
+    display: list-item;
+    margin-left: 20px; /* Ajusta para alinear los puntos y el texto según sea necesario */
+}
+
+
+.table.pedidos{
+font-size: large;
+
+}
+
+.table.clientes{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+
+
+table.trimestre {
+    border-collapse: collapse; 
+    width: 100%; /* Ancho de la tabla */
+  }
+  
+  table.trimestre td, 
+  table.trimestre th {
+    border: 1px solid #ddd; 
+    text-align: left; 
+    padding: 8px; 
+  }
+  
+
+
+  table.factura {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Sombra */
+    transition: 0.3s; /* Transición suave */
+  }
+  
+  table.factura:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3); /* Sombra al pasar el mouse */
+  }
+ 
+  
+
+.container.primero{
+   padding-top: 5em;
+
+}  
+.primero{
+width:100%;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+.segundo{
+
+    background-color: chocolate;
+}
+
+.tercero{
+ background-color: darkred;
+}
+
+.cuarto{
+
+    background-color: gold;
+}
+
+.table.trimestre tr.fila-especial {
+    background-color: #ccccff; /* Fondo azul claro solo para filas con esta clase */
+  }
